@@ -1,0 +1,166 @@
+.prufrockbg{
+    /* background-image: linear-gradient(360deg , rgba(0,0,0,1),rgba(0,0,0,0.3),rgba(0,0,0,0)),url(../img/prufrock/Prufrock+Exiting.gif) !important; */
+     background-image: linear-gradient(360deg , rgba(0,0,0,1),rgba(0,0,0,0.3),rgba(0,0,0,0)), url(https://images.squarespace-cdn.com/content/v1/6063b0835f68896079d7d643/1618430757530-F8RTWOO47IBHOXDWLLZW/ke17ZwdGBToddI8pDm48kKmw982fUOZVIQXHUCR1F55Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyd4Y7UZK2xeLnx1ebgr6RQsJXMVu21YAFsC8v7yP4SzpC9M16ov_6v_os-bsIuXDE/Prufrock+Exiting.gif?format=2500w) !important; 
+}
+.prufrockbg h1{
+    font-size: 28px !important;
+    color: white !important;
+    text-transform: uppercase !important;
+}
+.prufrockbg p{
+    color: white !important;
+    font-weight: 300 !important;
+    font-size: 16px !important;
+    max-width: 700px !important;
+}
+.prufrock-disc{
+    width: 100%;
+    background-color:#f5f5f5;
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap;
+    padding: 20px;
+}
+.prufrock-disc .define{
+    width: 100%;
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.define h1{
+    font-size: 32px;
+}
+.define p{
+    font-size: 14px;
+    color: #737373;
+    margin: 10px 0;
+}
+.prufrock-disc .porpoising{
+    width: 100%;
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.porpoising h1{
+    font-size: 32px;
+    display: block;
+    width: 100% !important;
+}
+.porpoising p{
+    font-size: 18px;
+    color: #737373;
+    margin: 0;
+    font-weight: 400;
+}
+.porpoising img{
+    width: 90%;
+    margin: auto;
+}
+@media screen and (max-width:770px){
+    .porpoising img{
+        width:100%;
+        margin: auto;
+    }
+}
+
+.prufrock-img{
+    max-width: 1380px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    padding-bottom: 50px;
+
+}
+.prufrock-img .prufrock-img-col{
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.prufrock-img-col img{
+    width: 100%;
+}
+.prufrock-img-col h1{
+    display: block;
+    width: 100%;
+    text-align: center !important;
+    font-size: 28px;
+}
+@media screen and (max-width:700px){
+    .prufrock-img .prufrock-img-col{
+        width: 95%;
+    }
+}
+/* cost factor */
+.cost-factor{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(360deg , rgba(0,0,0,1),rgba(0,0,0,0.3),rgba(0,0,0,0)),
+    url(../img/prufrock/Untitled-80.jpg);
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.cost-factor-info{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cost-factor-info-col{
+    width: 30%
+}
+
+.cost-factor-info-col h1{
+    color: white;
+    font-size: 32px;
+}
+.cost-factor-info-col p{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+.cost-factor-info-col p span{
+    font-weight: 600;
+}
+@media screen and (max-width:750px){
+    .cost-factor-info .cost-factor-info-col{
+        width: 100%;
+    }
+    .cost-factor-info-col h1{
+        color: white;
+        font-size: 26px;
+    }
+    .cost-factor-info-col p{
+        color: white;
+        font-size: 14px;
+        font-weight: 300;
+        margin: 5px 0;
+    }
+}
+/* garry the snail */
+.garry{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(360deg , rgba(0,0,0,.5),rgba(0,0,0,0.2),rgba(0,0,0,0)),
+    url(../img/prufrock/Gary+the+Snail.jpg);
+    display: flex;
+    background-size: cover;
+    background-position: center;
+
+}
+.garry .garry-info{
+    width: 100%;
+    padding-top: 15%;
+}
+.garry-info h5{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin: 0;
+}

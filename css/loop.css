@@ -1,0 +1,55 @@
+.loop-bg{
+    background-image:linear-gradient(360deg , rgba(0,0,0,1),rgba(0,0,0,0.3),rgba(0,0,0,0)),
+                        url(../img/hero2/loop.jpg) !important;
+}
+.loop-bg h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+.loop-bg p{
+    font-size: 16px !important;
+    font-weight: normal !important;
+    color: white;
+    max-width: 700px;
+    font-weight: 300;
+}
+.loop-disc{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+}
+.loop-disc .loop-card{
+    width: 90%;
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.loop-card .loop-card-col{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.loop-card-col h1{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.loop-card-col p{
+    font-size: 16px;
+    color: #737373;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.loop-card-col img{
+    width: 100% !important;
+}
+@media screen and (max-width:770px){
+    .loop-card .loop-card-col{
+        width: 100%;
+
+    }
+}

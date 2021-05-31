@@ -1,0 +1,44 @@
+.product-bg{
+    background-image:linear-gradient(360deg , rgba(0,0,0,1),rgba(0,0,0,0.3),rgba(0,0,0,0)),
+                        url(../img/product/rainbow.jpg) !important;
+}
+.product-bg .hero-text h1{
+    color: white !important;
+}
+.product-bg .hero-text p{
+    max-width: 600px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.loop-card .project-card-img{
+    max-width: 300px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    place-items: center;
+    margin: auto;
+}
+.product-flex p span{
+    font-weight: 600 !important;
+}
+.loop-card .project-card-img img{
+    width: 100%;
+    margin: auto;
+}
+
+.product-flex{
+    flex:1;
+}
+@media screen and (max-width:760){
+    .loop-card .project-card-img{
+        width: 100% !important;
+    }
+    .loop-card .product-flex{
+        width: 100% !important;
+    }
+
+}
+.product-disc-bg{
+    background-color:  #f9f9f9 !important; 
+}

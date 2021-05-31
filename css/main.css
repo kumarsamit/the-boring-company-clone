@@ -1,0 +1,438 @@
+/* hero image */
+.main-container{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(360deg , rgba(0,0,0,1),rgba(0,0,0,0.3),rgba(0,0,0,0)),
+    url(../img/hero/LVCC+Loop+Hero+2_April+2021.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment:local;
+    z-index: 90;
+}
+/* header */
+.main-container .header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 80px;
+    z-index: 99 !important;
+}
+
+.header .header-link-1{
+    width: 70%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+
+.header-link-1 .header-link-2-1{
+    display: none;
+}
+.header-link-1 img{
+    width: 100px;
+}
+.header-link-1 ul{
+    list-style-type: none;
+    display: block;
+}
+.header-link-1 ul li{
+    display: inline-block !important;
+    margin: 0px 10px;
+}
+.header-link-1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+
+.header-link-1 ul li a::after,
+.header-link-2 a::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height:1.5px;
+    background:  lime;
+    transition: 0.2s;
+}
+.header-link-1 ul li a:hover::after,
+.header-link-2 a:hover::after{
+    width: 100%;
+}
+
+.header .header-link-2{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-link-2 a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin:  0 10px;
+}
+.header-link-2 a .fas{
+    font-size: 24px;
+    display: none;
+}
+
+@media screen and (max-width:1050px){
+    .main-container .header{
+        padding: 20px 30px;
+    }
+}
+@media screen and (max-width:770px){
+    .main-container .header{
+        padding: 20px 30px;
+        background: rgba(0, 0, 0,0.4);
+    }
+    .header-link-1 img{
+        width: 80px;
+    }
+    .header-link-2 a .fas{
+        display: block !important;
+        z-index: 99;
+        position: absolute;
+        top:30px;
+    }
+    .header-link-1 ul{
+        z-index: 98;
+        width:80%;
+        height:100%;
+        position: absolute;
+        right: 0px;
+        top:-17px !important;
+        text-align: left;
+        background: rgba(0, 0, 0, 0.9);
+        overflow: hidden;
+        transition: .2s;
+        opacity: 0;
+    }
+    .header-link-1 ul li{
+        display: block !important;
+        margin: 15px 0 !important;
+        font-size: 18px;
+    } 
+    .header-link-1 ul li a{
+        margin: 0 !important;
+    }
+
+
+    .header-link-2 .header-link-2-1{
+        display: none;
+    }
+    .header-link-1 .header-link-2-1{
+        display: block;
+    }
+
+}
+/* hero text */
+.hero-text{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items:flex-end;
+    padding: 0 20px;
+
+}
+.hero-text div{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.hero-text div p{
+    color: white;
+    font-weight: 500;
+    font-size: 21px;
+}
+/* hero image ends */
+
+/* tunnels */
+.tunnel{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(360deg , rgba(0,0,0,1),rgba(0,0,0,0.3),rgba(0,0,0,0)),
+    url(../img/hero/Tunnel+photo+1.jpg);
+    display: flex;
+    background-position: center;
+    align-items: center;
+    padding:20px 80px;
+    background-size: cover;
+    background-attachment:local;
+    z-index: 89;
+
+}
+.tunnel .tunnel-info{
+    max-width: 700px;
+    padding-top: 50px;
+}
+.tunnel .tunnel-info h2{
+    color: white;
+    font-size: 32px;
+}
+.tunnel .tunnel-info p{
+    margin-top: 15px;
+    font-style: 18px;
+    color: white;
+}
+.tunnel .tunnel-info a{
+    border:1px solid white;
+    color: white;
+    display: block;
+    max-width: 180px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px 40px;
+    margin-top: 30px;
+}
+.tunnel .tunnel-info a:hover{
+    border:1px solid lime;
+}
+@media screen and (max-width:770px){
+    .tunnel .tunnel-info h2{
+        color: white;
+        font-size: 28px;
+    }
+    .tunnel .tunnel-info p{
+        margin-top: 15px;
+        font-style: 16px;
+        color: white;
+    }
+    .tunnel{
+        padding: 20px 20px;
+    }
+}
+/* introducing loops */
+.loop{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(360deg , rgba(0,0,0,1),rgba(0,0,0,0.3),rgba(0,0,0,0)),
+                        url(../img/hero2/loop.jpg);
+    display: flex;
+    background-attachment: fixed;
+    align-items: center;
+    padding:20px 80px;
+    background-size: cover;
+    background-attachment:local;
+    z-index: 88;
+
+}
+.loop .loop-info{
+    max-width: 700px;
+    padding-top: 50px;
+
+}
+.loop-info h2{
+    color: white;
+    font-size: 32px;
+}
+.loop-info p{
+    margin-top: 15px;
+    font-style: 18px;
+    color: white;
+}
+.loop-info a{
+    border:1px solid white;
+    color: white;
+    display: block;
+    max-width: 180px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px 40px;
+    margin-top: 30px;
+}
+.loop-info a:hover{
+    border:1px solid lime;
+}
+@media screen and (max-width:770px){
+    .loop .loop-info h2{
+        color: white;
+        font-size: 28px;
+    }
+    .loop .loop-info p{
+        margin-top: 15px;
+        font-style: 16px;
+        color: white;
+    }
+    .loop{
+        padding: 20px 20px;
+    }
+}
+/* meet prufrock */
+.prufrock{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(360deg , rgba(0,0,0,1),rgba(0,0,0,0.3),rgba(0,0,0,0)),
+                        url(../img/hero/20210108_185830.jpg);
+    display: flex;
+    align-items: center;
+    padding:20px 80px;
+    background-size: cover;
+    z-index: 87;
+    background-attachment: fixed;
+}
+.prufrock .prufrock-info{
+    max-width: 700px;
+    padding-top: 50px;
+
+}
+.prufrock-info h2{
+    color: white;
+    font-size: 32px;
+}
+.prufrock-info p{
+    margin-top: 15px;
+    font-style: 18px;
+    color: white;
+}
+.prufrock-info a{
+    border:1px solid white;
+    color: white;
+    display: block;
+    max-width: 180px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px 40px;
+    margin-top: 30px;
+}
+.prufrock-info a:hover{
+    border:1px solid lime;
+}
+@media screen and (max-width:770px){
+    .prufrock .prufrock-info h2{
+        color: white;
+        font-size: 28px;
+    }
+    .prufrock .prufrock-info p{
+        margin-top: 15px;
+        font-style: 16px;
+        color: white;
+    }
+    .prufrock{
+        padding: 20px 20px;
+    }
+}
+/* join us */
+.join{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(360deg , rgba(0,0,0,1),rgba(0,0,0,0.3),rgba(0,0,0,0)),
+                        url(../img/hero2/9af6c204fe596ec3bfe3cdeeb7294f56.jpg);
+    display: flex;
+    align-items: center;
+    padding:20px 80px;
+    z-index: 86;
+    background-size: cover;
+
+}
+.join .join-info{
+    max-width: 700px;
+    padding-top: 50px;
+
+}
+.join-info h2{
+    color: white;
+    font-size: 32px;
+}
+.join-info p{
+    margin-top: 15px;
+    font-style: 18px;
+    color: white;
+}
+.join-info a{
+    border:1px solid white;
+    color: white;
+    display: block;
+    max-width: 180px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px 40px;
+    margin-top: 30px;
+}
+.join-info a:hover{
+    border:1px solid lime;
+}
+@media screen and (max-width:770px){
+    .join .join-info h2{
+        color: white;
+        font-size: 28px;
+    }
+    .join .join-info p{
+        margin-top: 15px;
+        font-style: 16px;
+        color: white;
+    }
+    .join{
+        padding: 20px 20px;
+    }
+}
+/* footer */
+.footer{
+    width: 100%;
+    padding: 50px 0;
+    background-color: black;
+}
+.footer p{
+    text-align: center;
+}
+.footer p a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    border: 1px solid white;
+}
+.footer p a:hover{
+    border: 1px solid lime;
+}
+.hr{
+    width: 90%;
+    margin:50px auto;
+    height: 1px;
+    background-image: linear-gradient(90deg,lime,red);
+
+}
+.footer .social-links{
+    width: 100%;
+}
+.social-links {
+    text-align: center;
+}
+.social-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0 8px;
+    position: relative;
+}
+.social-links a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 0%;
+    height: 1px;
+    transition: .2s;
+    background-color: lime;
+}
+.social-links a:hover::after{
+    width: 100%;
+    color: #bbb;
+}
+
+
+
+
