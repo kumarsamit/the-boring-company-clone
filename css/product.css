@@ -30,7 +30,7 @@
 .product-flex{
     flex:1;
 }
-@media screen and (max-width:760){
+@media screen and (max-width:770px){
     .loop-card .project-card-img{
         width: 100% !important;
     }

@@ -1,0 +1,73 @@
+.carrers-bg{
+    background-image:linear-gradient(360deg , rgba(0,0,0,1),rgba(0,0,0,0.3),rgba(0,0,0,0)),
+    url(../img/carrers/IMG_5505.jpg) !important;   
+}
+.carrers-bg .hero-text h1{
+    color: white !important;
+    margin: 0 0 10px 0 !important;
+}
+.carrers-bg .hero-text a{
+    color: white;
+    display: block;
+    width: 200px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+.carrers-bg .hero-text a:hover{
+    border:1px solid lime;
+}
+.carrers-bg-disc{
+    background-color: #f9f9f9 !important;
+}
+.loop-disc .carrer-explanation{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 20px;
+}
+.loop-disc .job-list-info{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+
+}
+.job-list-info .job-list{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.job-list h1{
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+
+}
+.job-list .job-list-col{
+    width: 50%;
+}
+.job-list-col ul{
+    list-style-type: none;
+}
+.job-list-col ul li{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.job-list-color{
+    color: #0c92f3;
+    text-decoration: underline;
+}
+.job-location-color{
+    color:#737373
+}
+@media screen and (max-width:760){
+    .job-list-col ul li{
+        font-size: 14px;
+    }
+
+}
+
