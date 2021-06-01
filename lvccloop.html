@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <!-- website title -->
-        <title>The Boaring Company</title>
+        <title>LVCC Loop - The Boaring Company</title>
         <!-- favicon -->
         <link rel="icon" href="img/logo/favicon.png">
         <!-- meta tags -->
@@ -12,6 +12,7 @@
         <!-- css file -->
         <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/lvccloop.css">
         <!-- google fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -25,7 +26,7 @@
     <body>
        
         <!-- hero image -->
-        <div class="main-container" id="parallax">
+        <div class="main-container " id="parallax">
             <!-- header -->
             <div class="header" id="return">
                 <div class="header-link-1">
@@ -50,68 +51,39 @@
             <div class="hero-text " data-aos="fade-up">
                 <div>
                     <p>
-                        The Boring Company creates safe, fast-to-dig, and low-cost transportation, utility, and freight tunnels
+                        LVCC LOOP
                     </p>
-                    <p>
-                        The mission: solve traffic, enable rapid point-to-point transportation and transform cities
-                    </p>
+                    
                 </div>
             </div>
         </div>
         <!-- hero image ends -->
+        <!-- lvcc map -->
+        <div class="lvcc-map">
+            <h1>LAS VEGAS CONVENTION CENTER (LVCC) LOOP </h1>
+            <p>
+                The LVCC Loop system — a three-station transportation system consisting of 1.7 miles of tunnel — was built in approximately one year (using the now-legacy Godot Tunnel Boring Machine). LVCC Loop's cost was approximately $47M (firm fixed pricing) for the two tunnels and three stations (two surface and one subsurface). Tunneling occurred during large conventions (>100,000 attendees pre-COVID) with zero road closures and zero attendee disturbances.
+            </p>
 
-        <!-- tunnels -->
-        <div class="tunnel" id="parallax_1">
-            <div class="tunnel-info" data-aos="fade-up">
-                <h2>WHY TUNNELS ?</h2>
-                <p>
-                    To solve the problem of soul-destroying traffic, roads must go 3D, which means either flying cars or tunnels are needed. Unlike flying cars, tunnels are weatherproof, out of sight, and won't fall on your head.
-                </p>
-                <p>
-                    Tunnels minimize usage of valuable surface land and do not conflict with existing transportation systems. A large network of tunnels can alleviate congestion in any city; no matter how large a city grows, more levels of tunnels can be added.
-                </p>
-                <a href="tunnel.html">LEARN MORE</a>
-            </div>
+            <p>
+                LVCC Loop connects the LVCC New Exhibit Hall with the existing campus (North/Central/South Halls), and reduces a 45 minute cross-campus walk time to approximately 2 minutes
+            </p>
+            <img src="img/lvcc-loop/LVCC+Information+Signage+-+Grey.jpg" alt="">
         </div>
-        <!--  introducing loop  -->
-        <div class="loop" id="parallax_2">
-            <div class="loop-info" data-aos="fade-up">
-                <h2> INTRODUCING LOOP</h2>
-                <p>
-                    Loop is an all-electric, zero-emissions, underground public transportation system in which passengers are transported directly to their final destination with no stops along the way.
-                </p>
-                <p>
-                    Located at the Las Vegas Convention Center, LVCC Loop is the first commercially operating Loop system.
-                </p>
-                <a href="loop.html">LEARN MORE</a>
-            </div>
+        <!-- lvcc stations -->
+        <div class="lvcc-central">
+            <p data-aos="fade-up">LVCC CENTRAL</p>
         </div>
-        <!-- meet prufrock -->
-        <div class="prufrock" id="parallax_3">
-            <div class="prufrock-info" data-aos="fade-up">
-                <h2> MEET PRUFROCK</h2>
-                <p>
-                    Prufrock is designed to construct mega-infrastructure projects in a matter of weeks instead of years
-                </p>
-                <p>
-                    Prufrock is designed to tunnel at a speed of 1 mile per week, which is 6 times faster than The Boring Company’s previous generation TBM (Godot-Plus). This is still 4-5 times slower than a garden snail...but Prufrock is catching up!
-                </p>
-                
-                <a href="prufrock.html">LEARN MORE</a>
-            </div>
+        
+        <div class="lvcc-central lvcc-south">
+            <p data-aos="fade-up">LVCC SOUTH STATION</p>
         </div>
 
-        <!-- join us -->
-        <div class="join" id="parallax_4">
-            <div class="join-info" data-aos="fade-up">
-                <h2>JOIN US</h2>
-                <p>
-                    We're looking for talented individuals ready to get their hands dirty to make a meaningful impact that will last for generations to come. We are an equal opportunity employer offering competitive salaries, comprehensive health benefits, and equity packages.
-                </p>
-                
-                <a href="carrers.html">CARRERS</a>
-            </div>
+        <div class="lvcc-central back-lvcc">
+            <p data-aos="fade-up"><a href="project.html">BACK TO PROJECT</a></p>
         </div>
+
+
         <!-- footer -->
         <div class="footer">
             <p><a href="#return">RETURN TO TOP</a></p>
@@ -123,7 +95,6 @@
                 <a href="#">LINKEDIN</a>
                 <a href="carrers.html">CARRERS</a>
             </div>
-
         </div>        
 
 
@@ -137,7 +108,7 @@
           <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
           <script>
              AOS.init({
-                 offset:200,
+                 offset:100,
                  duration:1000,
              });
            </script>
