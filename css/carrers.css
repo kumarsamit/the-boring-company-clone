@@ -66,8 +66,14 @@
 }
 @media screen and (max-width:760){
     .job-list-col ul li{
-        font-size: 14px;
+        font-size: 16px;
     }
 
 }
 
+@media screen and (max-width:460){
+    .job-list-col ul li{
+        font-size: 12px;
+    }
+
+}

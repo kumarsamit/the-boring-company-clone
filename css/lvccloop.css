@@ -1,0 +1,57 @@
+.lvcc-map{
+    width: 100%;
+    padding: 50px 20px;
+    justify-content: center;
+    max-width: 1180px;
+    margin: auto;
+
+}
+.lvcc-map img{
+    width: 100%;
+    margin: 30px auto 0 !important;
+}
+.lvcc-map p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #737373;
+}
+.lvcc-central{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(360deg , rgba(0,0,0,0.8),rgba(0,0,0,0.3),rgba(0,0,0,0)),
+    url(../img/lvcc-loop/LVCC+Loop+Hero+1_April+2021.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.lvcc-central p{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+.lvcc-south{
+    background-image:linear-gradient(360deg , rgba(0,0,0,0.8),rgba(0,0,0,0.3),rgba(0,0,0,0)),
+    url(../img/lvcc-loop/s1.jpg) !important;
+}
+.back-lvcc{
+    background-image:linear-gradient(360deg , rgba(0,0,0,0.8),rgba(0,0,0,0.3),rgba(0,0,0,0)),
+    url(../img/project/s2+again.png) !important;
+}
+.back-lvcc a{
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    border:1px solid white;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.back-lvcc a:hover{
+    border:1px solid lime;
+}
+

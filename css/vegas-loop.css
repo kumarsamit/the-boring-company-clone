@@ -1,0 +1,52 @@
+.vegas-loop{
+    background-image:linear-gradient(360deg , rgba(0,0,0,0.8),rgba(0,0,0,0.3),rgba(0,0,0,0)),
+    url(../img/vegas-loop/Homepage_Marquee_VoiceOfTourism_20b3f1a2-64c2-4f39-9c50-509fb817f899.jpg) !important;
+}
+.vegas-bg-1{
+    width: 100%;
+    padding: 20px;
+    background-color: #f5f5f5 !important; 
+
+}
+.vegas-bg{
+    width: 100%;
+    max-width: 1180px;
+    margin: auto;
+    background-color: #f5f5f5 !important; 
+}
+.vegas-bg img{
+    margin: auto;
+    width: 100%;
+}
+.vegas-bg h2{
+    padding: 70px 0 0 0 ;
+    font-size: 32px;
+}
+.vegas-bg a{
+    display: block;
+    max-width: 200px;
+    padding: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.vegas-back-project{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 50px;
+    background-color: #f5f5f5 !important;
+}
+.vegas-back-project a{
+    padding: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border:1px solid black
+}
+.vegas-back-project a:hover{
+    border:1px solid lime
+}

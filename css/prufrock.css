@@ -1,7 +1,6 @@
 .prufrockbg{
-    /*background-image: linear-gradient(360deg , rgba(0,0,0,1),rgba(0,0,0,0.3),rgba(0,0,0,0)),url(../img/prufrock/Prufrock+Exiting.gif) !important;  */
-    background-image: linear-gradient(360deg , rgba(0,0,0,1),rgba(0,0,0,0.3),rgba(0,0,0,0)), url(https://images.squarespace-cdn.com/content/v1/6063b0835f68896079d7d643/1618430757530-F8RTWOO47IBHOXDWLLZW/ke17ZwdGBToddI8pDm48kKmw982fUOZVIQXHUCR1F55Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyd4Y7UZK2xeLnx1ebgr6RQsJXMVu21YAFsC8v7yP4SzpC9M16ov_6v_os-bsIuXDE/Prufrock+Exiting.gif?format=2500w) !important;
-
+     background-image: linear-gradient(360deg , rgba(0,0,0,1),rgba(0,0,0,0.3),rgba(0,0,0,0)),url(../img/prufrock/Prufrock+Exiting.gif) !important; 
+    /* background-image: linear-gradient(360deg , rgba(0,0,0,1),rgba(0,0,0,0.3),rgba(0,0,0,0)), url(https://images.squarespace-cdn.com/content/v1/6063b0835f68896079d7d643/1618430757530-F8RTWOO47IBHOXDWLLZW/ke17ZwdGBToddI8pDm48kKmw982fUOZVIQXHUCR1F55Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyd4Y7UZK2xeLnx1ebgr6RQsJXMVu21YAFsC8v7yP4SzpC9M16ov_6v_os-bsIuXDE/Prufrock+Exiting.gif?format=2500w) !important; */
 }
 .prufrockbg h1{
     font-size: 28px !important;
@@ -152,7 +151,7 @@
     url(../img/prufrock/Gary+the+Snail.jpg);
     display: flex;
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
 
 }
 .garry .garry-info{
