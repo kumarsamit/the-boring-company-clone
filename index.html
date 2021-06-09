@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <!-- website title -->
-        <title>The Boring Company</title>
+        <title>The Boaring Company</title>
         <!-- favicon -->
         <link rel="icon" href="img/logo/favicon.png">
         <!-- meta tags -->
@@ -23,9 +23,8 @@
 
     </head>
     <body>
-       
         <!-- hero image -->
-        <div class="main-container" id="parallax">
+        <div class="main-container">
             <!-- header -->
             <div class="header" id="return">
                 <div class="header-link-1">
@@ -36,18 +35,18 @@
                         <li><a href="project.html">projects</a></li>
                         <li><a href="prufrock.html">prufrock</a></li>
                         <li><a href="loop.html">loop</a></li>
-                        <li><a class="header-link-2-1" href="carrers.html">Carrer</a></li>
+                        <li><a class="header-link-2-1" href="carrers.html">Carres</a></li>
                         <li><a class="header-link-2-1" href="flamethrower.html">flamethrower</a></li>
                     </ul>
                 </div>
                 <div class="header-link-2">
-                    <a class="header-link-2-1" href="carrers.html">Carrer</a>
+                    <a class="header-link-2-1" href="carrers.html">Carres</a>
                     <a class="header-link-2-1" href="flamethrower.html">flamethower</a>
                     <a href="#"><i onclick="menutoggle()" class="fas fa-bars"></i></a>
                 </div>
             </div>
             <!-- hero text -->
-            <div class="hero-text " data-aos="fade-up">
+            <div class="hero-text " data-aos="fade-up"  id="my-element">
                 <div>
                     <p>
                         The Boring Company creates safe, fast-to-dig, and low-cost transportation, utility, and freight tunnels
@@ -61,7 +60,7 @@
         <!-- hero image ends -->
 
         <!-- tunnels -->
-        <div class="tunnel" id="parallax_1">
+        <div class="tunnel">
             <div class="tunnel-info" data-aos="fade-up">
                 <h2>WHY TUNNELS ?</h2>
                 <p>
@@ -74,7 +73,7 @@
             </div>
         </div>
         <!--  introducing loop  -->
-        <div class="loop" id="parallax_2">
+        <div class="loop">
             <div class="loop-info" data-aos="fade-up">
                 <h2> INTRODUCING LOOP</h2>
                 <p>
@@ -87,7 +86,7 @@
             </div>
         </div>
         <!-- meet prufrock -->
-        <div class="prufrock" id="parallax_3">
+        <div class="prufrock">
             <div class="prufrock-info" data-aos="fade-up">
                 <h2> MEET PRUFROCK</h2>
                 <p>
@@ -102,7 +101,7 @@
         </div>
 
         <!-- join us -->
-        <div class="join" id="parallax_4">
+        <div class="join">
             <div class="join-info" data-aos="fade-up">
                 <h2>JOIN US</h2>
                 <p>
@@ -128,9 +127,10 @@
 
 
 
-        <SCript>
+        
                 
-        </SCript>
+      
+        
          <!-- js file -->
          <script src="js/paralax.js"></script>
           <!-- js for animation -->
@@ -141,6 +141,25 @@
                  duration:1000,
              });
            </script>
+            <!-- parallax  -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script src="js/Parallaxie-master/parallaxie.js"></script>
+            <script>
+                $('.main-container').parallaxie();
+            </script>
+            <script>
+                $('.tunnel').parallaxie();
+            </script>
+            <script>
+                $('.prufrock').parallaxie();
+            </script>
+            <script>
+                $('.loop').parallaxie();
+            </script>
+            <script>
+                $('.join').parallaxie();
+            </script>
+
         
     
     </body>
