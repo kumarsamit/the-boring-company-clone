@@ -22,7 +22,7 @@ function menutoggle(){
     window.addEventListener("scroll", function()
     {
         let offset = window.pageYOffset;
-        parallax.style.backgroundPositionY = offset * .9 + "px";
+        parallax.style.backgroundPositionY = offset * .3 + "px";
     })
 
 
@@ -30,26 +30,26 @@ function menutoggle(){
     window.addEventListener("scroll", function()
     {
         let offset = window.pageYOffset;
-        parallax_1.style.backgroundPositionY = offset * 1.1 + "px";
+        parallax_1.style.backgroundPositionY = offset * .3 + "px";
     })
 
     const parallax_2 = document.getElementById("parallax_2");
     window.addEventListener("scroll", function()
     {
         let offset = window.pageYOffset;
-        parallax_2.style.backgroundPositionY = offset * .98 + "px";
+        parallax_2.style.backgroundPositionY = offset * .3 + "px";
     })
 
     const parallax_3 = document.getElementById("parallax_3");
     window.addEventListener("scroll", function()
     {
         let offset = window.pageYOffset;
-        parallax_3.style.backgroundPositionY = offset * 1.1 + "px";
+        parallax_3.style.backgroundPositionY = offset * .3 + "px";
     })
 
     const parallax_4 = document.getElementById("parallax_4");
     window.addEventListener("scroll", function()
     {
         let offset = window.pageYOffset;
-        parallax_4.style.backgroundPositionY = offset * .9 + "px";
+        parallax_4.style.backgroundPositionY = offset * .3 + "px";
     })
